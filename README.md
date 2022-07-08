@@ -6,6 +6,8 @@ arXiv : https://arxiv.org/abs/2201.12090
 
 ## Instructions to run the experiments (Section 4)
 
+Note : linear-ABC, ridge-ABC, and neural-ABC were implemented using the *abc* library in R
+
 ### Experiment under model misspecification (Section 4.1)
 
 Check the "misspecification" sub-folder. You will find there a notebook reproducing the experiment. Note that it uses some datasets, which are provided, as well as the R codes which were used to create them.
@@ -16,6 +18,7 @@ Check the "lowsim" sub-folder. The codes there use some datasets, which are prov
 
 Results of the HITL-ABC method are obtained by running
 > python gk_hitl.py [nSim] [criterion]
+
 where criterion can be "normal" or "random".
 
 Results of Barnes' method is obtained by running
